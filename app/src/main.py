@@ -113,6 +113,8 @@ def main(page: ft.Page):
 
         else: print("Erro na requisição:", response.status_code)
 
+    previsao_agora()
+
     page.appbar = ft.AppBar(
         title="Previsão",
         bgcolor="#000000",
